@@ -12,9 +12,6 @@
   "icon": "assets/translation_helper/icon.png",
   "environment": "client",
   "entrypoints": {
-    "main": [
-      "dzwdz.translation_helper.TranslationHelper"
-    ]
   },
   "mixins": [
     "translation_helper.mixins.json"
