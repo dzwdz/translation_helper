@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "translation_helper",
+  "version": "${version}",
+  "name": "Translation Helper",
+  "description": "a small mod displaying all missing translations",
+  "authors": [
+    "dzwdz"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/translation_helper/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "dzwdz.translation_helper.TranslationHelper"
+    ]
+  },
+  "mixins": [
+    "translation_helper.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.10.1+build.209",
+    "fabric": "*",
+    "minecraft": "1.16.3"
+  }
+}

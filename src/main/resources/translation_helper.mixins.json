@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dzwdz.translation_helper.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "TitleScreenMixin",
+    "TransatableTextMixin",
+    "TranslationStorageMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
