@@ -23,7 +23,7 @@ public class TitleScreenMixin extends Screen {
 
     @Inject(at = @At("TAIL"), method = "init")
     public void addPrintButton(CallbackInfo callbackInfo) {
-        addButton(new ButtonWidget(0, 0, 122, 20, new LiteralText("log missing translations"), w -> {
+        addButton(new ButtonWidget(0, 10, 122, 20, new LiteralText("log missing translations"), w -> {
             System.out.println("missing translations:");
             for (String s : TranslationHelper.MISSING)
                 System.out.println(s);
